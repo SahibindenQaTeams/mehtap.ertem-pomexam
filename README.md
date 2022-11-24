@@ -44,8 +44,11 @@ This project includes different sub-scenarios.
 **Test Criteria**
 
 1-User Page Object Model
+
 2-Test run in testbox
-3-When the test fails, the console test fails as with a log.
+
+3 - When the test fails, the console test fails as with a log.
+
 4-Test fail screenshot is taken
 5-Logging in tests
 6-Paying attention to the actions before and after the test-locaters
