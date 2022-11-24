@@ -9,47 +9,47 @@ This project includes different sub-scenarios.
 
 **Project Detail**
 
-1- Login case:
+**Login case:**
 
--Enter username and password
--Logging for username and password
--Click submit button
--Logging if  process is success 
+1-Enter username and password
+2-Logging for username and password
+3-Click submit button
+4-Logging if  process is success 
 
-2-Get Classified Case
+**Get Classified Case**
 
--Go to home page
--Click get post classified button
--Select shopping classified in category select page
--Enter mandotary classified detail on classified detail page.
--Enter product property on property page.
--Add product price on next page.
--Pass the preview page 
--Do not select any doping 
--Next page is success 
--Assertion on success page
+1-Go to home page
+2-Click get post classified button
+3-Select shopping classified in category select page
+4-Enter mandotary classified detail on classified detail page.
+5-Enter product property on property page.
+6-Add product price on next page.
+7-Pass the preview page 
+8-Do not select any doping 
+9-Next page is success 
+10-Assertion on success page
 
-3- Search Page
+**Search Page**
 
--Go to home page
--Click search bar and enter search text
--Click found button
- -Assert that there is any classified in classified list.
--Go to search page (real estate in this project)
--Enable some filters (price and city in this project)
--Click found button
--Get first classified title and go this classified detail.
--Assert if it has the same title as the clicked classified.
+1-Go to home page
+2-Click search bar and enter search text
+3-Click found button
+4-Assert that there is any classified in classified list.
+5-Go to search page (real estate in this project)
+6-Enable some filters (price and city in this project)
+7-Click found button
+8-Get first classified title and go this classified detail.
+9-Assert if it has the same title as the clicked classified.
 
 **Test Criteria**
 
-*User Page Object Model
-*Test run in testbox
-*When the test fails, the console test fails as with a log.
-*Test fail screenshot is taken
-*Logging in tests
-*Paying attention to the actions before and after the test-locaters
-*Adding tag information to the test
+1-User Page Object Model
+2-Test run in testbox
+3-When the test fails, the console test fails as with a log.
+4-Test fail screenshot is taken
+5-Logging in tests
+6-Paying attention to the actions before and after the test-locaters
+7-Adding tag information to the test
 
 **To run test with MAVEN**
 
