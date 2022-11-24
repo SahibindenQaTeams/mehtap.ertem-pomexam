@@ -1,13 +1,13 @@
 # mehtap.ertem-pomexam
 
-##Project Name
+**Project Name**
 
 This project includes different sub-scenarios.
 
 2 refactoring cases for POM,
 3 new scenarios login, get classified and search result.
 
-##Project Detail
+**Project Detail**
 
 1- Login case:
 
@@ -41,7 +41,7 @@ This project includes different sub-scenarios.
 -Get first classified title and go this classified detail.
 -Assert if it has the same title as the clicked classified.
 
-##Test Criteria
+**Test Criteria**
 
 User Page Object Model
 Test run in testbox
@@ -51,7 +51,7 @@ Logging in tests
 Paying attention to the actions before and after the test-locaters
 Adding tag information to the test
 
-##To run test with MAVEN
+**To run test with MAVEN**
 
 mvn clean install -Dgroup=‘POPULAR_SEARCH’
 mvn clean install -Dgroup=‘LOGIN’
