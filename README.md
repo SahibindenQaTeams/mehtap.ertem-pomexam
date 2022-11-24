@@ -43,21 +43,21 @@ This project includes different sub-scenarios.
 
 **Test Criteria**
 
-User Page Object Model
-Test run in testbox
-When the test fails, the console test fails as with a log.
-Test fail screenshot is taken
-Logging in tests
-Paying attention to the actions before and after the test-locaters
-Adding tag information to the test
+*User Page Object Model
+*Test run in testbox
+*When the test fails, the console test fails as with a log.
+*Test fail screenshot is taken
+*Logging in tests
+*Paying attention to the actions before and after the test-locaters
+*Adding tag information to the test
 
 **To run test with MAVEN**
 
-mvn clean install -Dgroup=‘POPULAR_SEARCH’
-mvn clean install -Dgroup=‘LOGIN’
-mvn clean install -Dgroup=‘GET SHOPPING CLASSIFIED’
-mvn clean install -Dgroup=‘REAL ESTATE SEARCH RESULT’
-mvn clean install -Dgroup=‘VEHICLE CLASSIFIED NUMBER ASSERTION’
+*mvn clean install -Dgroup=‘POPULAR_SEARCH’
+*mvn clean install -Dgroup=‘LOGIN’
+*mvn clean install -Dgroup=‘GET SHOPPING CLASSIFIED’
+*mvn clean install -Dgroup=‘REAL ESTATE SEARCH RESULT’
+*mvn clean install -Dgroup=‘VEHICLE CLASSIFIED NUMBER ASSERTION’
 
 mvn test -Dgroups=fast,slow
 
